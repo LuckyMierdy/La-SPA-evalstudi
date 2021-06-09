@@ -1,0 +1,38 @@
+/*CARD*/
+
+.card {
+  width: auto;
+  height: auto;
+}
+.card-img-top {
+  width: auto;
+  height: auto;
+  
+}
+
+@media screen and (min-width : 991px) {
+
+  .card {
+    width: 15rem;
+    height: 30rem;
+  }
+  
+}
+
+@media screen and (min-width : 1440px) {
+
+  .card {
+    width: 20rem;
+    height: 28rem;
+  }
+  
+}
+
+@media screen and (min-width : 1700px) {
+
+  .card {
+    width: 25rem;
+    height: 30rem;
+  }
+  
+}

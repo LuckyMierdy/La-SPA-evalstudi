@@ -10,36 +10,36 @@
 </head>
 <body>
   <header>
-    <img src="image/logo.png" alt="responsive image">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
+    <img src="image/logo.png" class="img-fluid" style="width: 20rem" alt="responsive image">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <a class="navbar-brand" href="#">La SPA</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Adoptez</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#">Dons</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+            <a class="nav-link" href="./Evenement.html">Événement</a>
           </li>
         </ul>
       </div>
     </nav>
   </header>
-  <main class="mx-auto" style="width: 80%;">
+  <main class="mx-auto">
     <article class="align-item-center">
-      <div class="d-flex justify-content-around align-items-center p-5">
+      <div class="d-lg-flex justify-content-around align-items-center p-5">
         <section>
-          <div class="card shadow p-3 mb-5 bg-white" style="width: 25rem; height: 30rem">
-            <img class="card-img-top" src="image/adopté.jpg" alt="Card image cap">
+          <div class="card shadow mb-5 bg-white mx-auto">
+            <img class="card-img-top img-fluid d-sm-block" src="image/adopté.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Offrons leur la vie qu'ils méritent</h5>
               <p class="card-text">
@@ -51,8 +51,8 @@
           </div>
         </section>
         <section>
-        <div class="card shadow p-3 mb-5 bg-white border" style="width: 25rem; height: 30rem">
-          <img class="card-img-top" src="image/faite-un-don.jpg" alt="Card image cap">
+        <div class="card shadow mb-5 bg-white mx-auto">
+          <img class="card-img-top img-fluid" src="image/faite-un-don.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Faites un don</h5>
             <p class="card-text">
@@ -64,19 +64,21 @@
         </div>
         </section>
         <section>
-          <div class="card shadow p-3 mb-5 bg-white" style="width: 25rem; height: 30rem">
-            <img class="card-img-top" src="image/évènement.png" alt="Card image cap">
+          <div class="card shadow mb-5 bg-white mx-auto">
+            <img class="card-img-top img-fluid" src="image/évènement.png" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Évènement</h5>
+              <h5 class="card-title">Événement</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <a href="./Evenement.html" class="btn btn-primary">Évènement</a>
             </div>
           </div>
         </section>
       </div>
-      <h2 class="text-center p-2">LA SPA LUTTE CHAQUE JOUR CONTRE L'ABANDON D'ANIMAUX EN FRANCE</h2>
-      <section class="mx-auto" style="width: 62%;">
-        <img src="./image/combat.jpg" alt="">
+      <h2 class="text-center">LA SPA LUTTE CHAQUE JOUR CONTRE L'ABANDON D'ANIMAUX EN FRANCE</h2>
+      <section class="container">
+        <div class="d-flex justify-content-center">
+          <img src="./image/combat.jpg" class="img-fluid" alt="">
+        </div>
         <div class="p-3">
           <p>
             L’abandon sur la voie publique ou dans la nature est classé comme acte de cruauté et puni de 30 000 € 
@@ -109,10 +111,10 @@
     </article>
   </main>
   <footer class="footer p-4" style="background-color: orangered;">
-    <div class="container" style="width: 80%;">
+    <div>
       <div class="row">
-        <div class="col-2"></div>
-        <div class="col-2">
+        <div class="col-0 col-sm-2"></div>
+        <div class="col-3">
           <h5><i class="fa fa-road"></i>SPA</h5>
           <div class="row">
             <div class="col-8">
@@ -125,11 +127,11 @@
           </div>
           <br>
         </div>
-        <div class="col-2">
+        <div class="col-4 col-sm-2">
           <h5 class="text-md-right">Contactez-nous</h5>
           <hr>
         </div>
-        <div class="col-3">
+        <div class="col-5 col-sm-3">
           <form>
             <fieldset class="form-group">
               <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Entrer votre email">
