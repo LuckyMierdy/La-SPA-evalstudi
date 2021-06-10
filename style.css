@@ -9,26 +9,37 @@ body {
   width: auto;
 }
 
+/* NAVBAR */
 nav {
   margin-top: 1rem;
+  background-color: #ef5713;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  padding: 0;
+  width: 75%;
   display: flex;
   justify-content: space-around;
-  background-color: orangered;
+  background-color: #ef5713;
 }
 
 a {
   text-decoration: none;
   list-style: none;
-  margin: 1vw;
+  padding: 1vw;
   color: #16151b;
 }
 
-a:hover {
+.navbar > a:hover {
   text-decoration: underline;
   color: #16151b;
+  background-color: lightyellow;
+  padding: 1vw;
 }
 
-/*CARD*/
+/* CARD */
 
 .card {
   width: auto;
@@ -65,4 +76,19 @@ a:hover {
     height: 30rem;
   }
   
+}
+
+/* image size */
+.img-article {
+  margin: 1rem;
+  width: 268px;
+  height: 180px;
+}
+
+.even-content {
+  margin: 1rem;;
+}
+
+h1 {
+  margin: 2rem;
 }
