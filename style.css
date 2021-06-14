@@ -2,6 +2,10 @@ body {
   background-color: lightyellow;
 }
 
+.bg-orange, footer {
+  background-color: #ef5713;
+}
+
 .logo {
   margin-left: 1.5rem;
   margin-top: 1rem;
@@ -10,29 +14,26 @@ body {
 }
 
 /* NAVBAR */
-nav {
+.navbar {
   margin-top: 1rem;
-  background-color: #ef5713;
   display: flex;
   justify-content: center;
 }
 
 .navbar {
   padding: 0;
-  width: 75%;
+  width: 100%;
   display: flex;
   justify-content: space-around;
-  background-color: #ef5713;
 }
 
-a {
+a, .nav-a {
   text-decoration: none;
   padding: 1rem;
   color: #16151b;
 }
 
-nav > div > a:hover {
-  text-decoration: underline;
+.nav-a:hover {
   color: #16151b;
   background-color: lightyellow;
   padding: 1rem;
@@ -104,14 +105,10 @@ nav > div > a:hover {
 
 @media screen and (min-width : 1700px) {
 
-  main {
+  .main-event {
     display: grid;
     grid-template-columns: 25% 50% 25%;
     grid-template-rows: 33.33% 33.33% 33.33%;
-    grid-template-areas:
-      ". event01 ."
-      ". event02 ."
-      ". event03 .";
   }
   
 }
