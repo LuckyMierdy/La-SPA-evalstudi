@@ -119,8 +119,8 @@ h1 {
 
 .ligne{
   margin: 100px auto;
-  width: 25%;
-  height: 5px;
+  width: 30%;
+  height: 1px;
   background-color: black;
   border: none;
 }
