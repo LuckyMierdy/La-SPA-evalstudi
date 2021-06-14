@@ -3,7 +3,7 @@ body {
 }
 
 .logo {
-  margin-left: 2rem;
+  margin-left: 1.5rem;
   margin-top: 1rem;
   height: 5rem;
   width: auto;
@@ -27,19 +27,18 @@ nav {
 
 a {
   text-decoration: none;
-  list-style: none;
-  padding: 1vw;
+  padding: 1rem;
   color: #16151b;
 }
 
-.navbar > a:hover {
+nav > div > a:hover {
   text-decoration: underline;
   color: #16151b;
   background-color: lightyellow;
-  padding: 1vw;
+  padding: 1rem;
 }
 
-/* CARD */
+/* CARD responsive page accueil*/
 
 .card {
   width: auto;
@@ -78,17 +77,53 @@ a {
   
 }
 
+/*img-article responsive size event page*/
+@media screen and (min-width : 991px) {
+
+  .img-article {
+    height: auto;
+  }
+
+  .even-content {
+    margin: 1rem;
+    width: 100%;
+  }
+
+}
+
 /* image size */
 .img-article {
-  margin: 1rem;
-  width: 268px;
-  height: 180px;
+  padding: 1rem;
+  width: 500px;
+  height: auto;
 }
 
 .even-content {
-  margin: 1rem;;
+  margin: 1rem;
+}
+
+@media screen and (min-width : 1700px) {
+
+  main {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+    grid-template-areas:
+      ". event01 ."
+      ". event02 ."
+      ". event03 .";
+  }
+  
 }
 
 h1 {
   margin: 2rem;
+}
+
+.ligne{
+  margin: 100px auto;
+  width: 25%;
+  height: 5px;
+  background-color: black;
+  border: none;
 }
